@@ -14,7 +14,7 @@ body {
     flex-direction: column;
 }
 
-/* top-section */
+/* TOP-SECTION */
 .top-section {
     background: #1F2937;
     flex: auto;
@@ -74,7 +74,6 @@ header a {
 }
 
 .top-section .left {
-    color: white;
     display: flex;
     flex-direction: column;
     align-items: flex-start;

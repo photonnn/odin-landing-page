@@ -16,6 +16,25 @@ body {
 .top-section {
     background: lightblue;
     flex: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+li {
+    float: left;
+}
+a {
+    text-decoration: none;
 }
 
 .above-content {

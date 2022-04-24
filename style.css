@@ -235,6 +235,11 @@ header a {
 
 /* */
 footer {
-    background: lightgray;
+    background: #1F2937;
+    color: #F9FAF8;
     flex: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
 }

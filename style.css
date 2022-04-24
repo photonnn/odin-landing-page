@@ -207,6 +207,7 @@ header a {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
 }
 .l {
     margin-right: 50px;

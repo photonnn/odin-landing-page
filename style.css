@@ -27,8 +27,8 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 150px;
+    margin-right: 150px;
     padding-top: 12px;
     padding-bottom: 12px;
 }
@@ -56,14 +56,14 @@ header a {
 }
 
 .top-section div {
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 150px;
+    margin-right: 150px;
     flex-grow: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .top-section .left,
@@ -115,12 +115,56 @@ header a {
     padding-bottom: 100px;
 }
 
-/* */
+/* ABOVE-CONTENT*/
 .above-content {
-    background: lightcoral;
+    background: white;
     flex: auto;
 }
 
+.boxes {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 100px;
+}
+
+.box {
+    height: 200px;
+    width: 150px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.above-content .box p {
+    font-size: 16px;
+    color: #6f737e;
+    font-weight: initial;
+}
+
+.image {
+    background: white;
+    border: 3.5px solid #3882F6;
+    border-radius: 15px;
+    height: 150px;
+    width: 125px;
+}
+
+.above-content p {
+    text-align: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* */
 .quote {
     background: lightcyan;
     flex: auto;

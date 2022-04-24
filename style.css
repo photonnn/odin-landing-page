@@ -1,6 +1,7 @@
 * {
     margin: 0;
     box-sizing: border-box;
+    font-family: 'roboto';
 }
 
 html {
@@ -15,7 +16,7 @@ body {
 
 /* top-section */
 .top-section {
-    background: lightblue;
+    background: #1F2937;
     flex: auto;
     display: flex;
     flex-direction: column;
@@ -28,6 +29,14 @@ header {
     align-items: center;
     margin-left: 200px;
     margin-right: 200px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+header p {
+    font-weight: 800;
+    color: #F9FAF8;
+    font-size: 24px;
 }
 
 header li {
@@ -42,6 +51,8 @@ header ul {
 header a {
     text-decoration: none;
     text-align: right;
+    font-size: 18px;
+    color: #E5E7EB
 }
 
 .top-section div {
@@ -51,25 +62,60 @@ header a {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
-.top-section .left,.top-section .right {
+.top-section .left,
+.top-section .right {
     margin-left: 0;
     margin-right: 0;
     height: 100%;
 }
 
 .top-section .left {
-    background: red;
     color: white;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     width: 50%;
+    margin-right: 40px;
 }
+
+.top-section .left h1 {
+    font-size: 48px;
+    color: #F9FAF8
+}
+
+.top-section .left p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 10px;
+}
+
+.top-section .left button {
+    background: #3882F6;
+    color: #F9FAF8;
+    font-weight: 800;
+    text-align: center;
+    padding: 5px 20px;
+    border-radius: 8px;
+    border-style: none;
+}
+
 .top-section .right {
     width: 50%;
-    background: blue;
 }
+
+.top-section .right p {
+    background: #6f737e;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
 /* */
 .above-content {
     background: lightcoral;

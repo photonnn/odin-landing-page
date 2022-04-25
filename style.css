@@ -93,7 +93,7 @@ header a {
 }
 
 .top-section .left button {
-    background: #3882F6;
+    background: rgb(228, 150, 5);
     color: #F9FAF8;
     font-weight: 800;
     font-size: 16px;
@@ -148,7 +148,7 @@ header a {
 
 .image {
     background: white;
-    border: 3.5px solid #3882F6;
+    border: 3.5px solid rgb(228, 150, 5);
     border-radius: 15px;
     height: 150px;
     width: 125px;
@@ -200,7 +200,7 @@ header a {
 }
 
 .below-content .bc-container {
-    background: #3882F6;
+    background: rgb(228, 150, 5);
     padding: 25px 50px;
     color: #F9FAF8;
     width: 85%;
@@ -231,7 +231,7 @@ header a {
     color: white;
     font-size: 16px;
     padding: 5px 30px;
-    background-color: #3882F6;
+    background-color: rgb(228, 150, 5);
 }
 
 /* */

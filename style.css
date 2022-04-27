@@ -201,6 +201,7 @@ header a {
 .quote #thor {
     align-self: flex-end;
     font-size: 18px;
+    margin-right: 60px;
     margin-top: 20px;
     font-weight: bolder;
 }

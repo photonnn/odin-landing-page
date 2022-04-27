@@ -201,7 +201,7 @@ header a {
 }
 
 /* BELOW CONTENT*/
-.below-content {
+.bc {
     background: white;
     padding: 75px 125px;
     flex: auto;

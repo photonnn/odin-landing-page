@@ -192,10 +192,15 @@ header a {
     font-style: italic;
 }
 
+.quote .quote-wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 1250px;
+}
+
 .quote #thor {
-    align-self: auto;
+    align-self: flex-end;
     font-size: 18px;
-    margin-right: 50px;
     margin-top: 20px;
     font-weight: bolder;
 }

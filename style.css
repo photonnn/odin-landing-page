@@ -120,7 +120,7 @@ header a {
 }
 
 /* ABOVE CONTENT*/
-.above-content {
+.ac {
     background: white;
     flex: auto;
     display: flex;
@@ -148,7 +148,7 @@ header a {
     align-items: center;
 }
 
-.above-content .box p {
+.ac .box p {
     color: #6f737e;
     font-size: 16px;
     font-weight: initial;
@@ -162,7 +162,7 @@ header a {
     width: 125px;
 }
 
-.above-content p {
+.ac p {
     color: #1F2937;
     height: 100px;
     font-size: 36px;
@@ -210,7 +210,7 @@ header a {
     align-items: center;
 }
 
-.below-content .bc-container {
+.bc .bc-container {
     background: #3882f6;
     color: #F9FAF8;
     width: 85%;
@@ -223,22 +223,22 @@ header a {
     flex-wrap: wrap;
 }
 
-.l {
+.bc-left {
     margin-right: 50px;
     padding-left: 50px;
     font-size: 16px;
     font-weight: bolder;
 }
 
-.l #exclude {
+.bc-left #exclude {
     font-weight: initial;
 }
 
-.r {
+.bc-right {
     padding: 0px 50px;
 }
 
-.r button {
+.bc-right button {
     background-color: #3882f6;
     color: white;
     width: max-content;
@@ -249,7 +249,7 @@ header a {
     font-size: 16px;
 }
 
-/* */
+/* FOOTER */
 footer {
     background: #1F2937;
     color: #F9FAF8;

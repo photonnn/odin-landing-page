@@ -17,7 +17,7 @@ body {
 }
 
 /* TOP SECTION */
-.top-section {
+.ts {
     background: #1F2937;
     flex: auto;
     display: flex;
@@ -26,27 +26,26 @@ body {
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    width: 80%;
+    max-width: 1250px;
     margin-left: 150px;
     margin-right: 150px;
     padding-top: 12px;
     padding-bottom: 12px;
-    width: 80%;
-    max-width: 1250px;
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header p {
-    font-weight: 800;
     color: #F9FAF8;
     font-size: 24px;
+    font-weight: 800;
 }
 
 header li {
-    float: left;
     margin-left: 20px;
+    float: left;
 }
 
 header ul {
@@ -54,73 +53,70 @@ header ul {
 }
 
 header a {
+    color: #E5E7EB;
     text-decoration: none;
     text-align: right;
     font-size: 18px;
-    color: #E5E7EB
 }
 
-.top-section div {
-    margin-left: 150px;
-    margin-right: 150px;
+.ts div {
+    margin: 40px 150px;
+    max-width: 1250px;
     flex-grow: 1;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    max-width: 1250px;
 }
 
-.top-section .left,
-.top-section .right {
+.ts .left,
+.ts .right {
+    height: 100%;
     margin-left: 0;
     margin-right: 0;
-    height: 100%;
 }
 
-.top-section .left {
+.ts .left {
+    max-width: 50%;
+    margin-right: 40px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    max-width: 50%;
-    margin-right: 40px;
 }
 
-.top-section .left h1 {
+.ts .left h1 {
+    color: #F9FAF8;
     font-size: 48px;
-    color: #F9FAF8
 }
 
-.top-section .left p {
-    font-size: 18px;
+.ts .left p {
     color: #E5E7EB;
     margin-bottom: 10px;
+    font-size: 18px;
 }
 
-.top-section .left button {
+.ts .left button {
     background: #3882f6;
     color: #F9FAF8;
-    font-weight: 800;
-    font-size: 16px;
-    text-align: center;
     padding: 6px 25px;
+    font-size: 16px;
+    font-weight: 800;
+    text-align: center;
     border-radius: 8px;
     border-style: none;
 }
 
-.top-section .right {
+.ts .right {
     min-width: 6vm;
 }
 
-.top-section .right p {
+.ts .right p {
     background: #6f737e;
     color: white;
-    text-align: center;
     width: 100%;
     padding-top: 100px;
     padding-bottom: 100px;
+    text-align: center;
 }
 
 /* ABOVE CONTENT*/
@@ -133,21 +129,19 @@ header a {
 }
 
 .boxes {
+    width: 80%;
+    max-width: 1250px;
+    margin: 0 200px 75px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-bottom: 75px;
     gap: 10%;
-    width: 80%;
-    max-width: 1250px;
 }
 
 .box {
+    background: white;
     height: 200px;
     width: 150px;
-    background: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -155,8 +149,8 @@ header a {
 }
 
 .above-content .box p {
-    font-size: 16px;
     color: #6f737e;
+    font-size: 16px;
     font-weight: initial;
 }
 
@@ -169,11 +163,11 @@ header a {
 }
 
 .above-content p {
-    text-align: center;
     color: #1F2937;
+    height: 100px;
     font-size: 36px;
     font-weight: 900;
-    height: 100px;
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -182,28 +176,28 @@ header a {
 /* QUOTE */
 .quote {
     background: #E5E7EB;
+    padding: 100px 250px;
     flex: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 100px 250px;
 }
 
 .quote p {
-    font-size: 24px;
-    font-style: italic;
-    font-weight: 400;
     color: #1F2937;
     max-width: 1250px;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: italic;
 }
 
 .quote #thor {
     align-self: auto;
+    font-size: 18px;
     margin-right: 50px;
     margin-top: 20px;
     font-weight: bolder;
-    font-size: 18px;
 }
 
 /* BELOW CONTENT*/
@@ -218,22 +212,22 @@ header a {
 
 .below-content .bc-container {
     background: #3882f6;
-    padding: 25px 50px;
     color: #F9FAF8;
     width: 85%;
+    max-width: 1250px;
+    padding: 25px 50px;
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
     flex-wrap: wrap;
-    max-width: 1250px;
 }
 
 .l {
     margin-right: 50px;
     padding-left: 50px;
-    font-weight: bolder;
     font-size: 16px;
+    font-weight: bolder;
 }
 
 .l #exclude {
@@ -245,23 +239,23 @@ header a {
 }
 
 .r button {
+    background-color: #3882f6;
+    color: white;
     width: max-content;
+    border: 2px white solid;
     border-radius: 5px;
     border-style: none;
-    border: 2px white solid;
-    color: white;
-    font-size: 16px;
     padding: 5px 30px;
-    background-color: #3882f6;
+    font-size: 16px;
 }
 
 /* */
 footer {
     background: #1F2937;
     color: #F9FAF8;
+    padding: 30px;
     flex: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px;
 }
